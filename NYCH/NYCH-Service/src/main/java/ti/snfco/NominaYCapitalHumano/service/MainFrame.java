@@ -228,7 +228,7 @@ public class MainFrame extends JFrame {
 		lblPassword.setBounds(210, 98, 75, 14);
 		contentPane.add(lblPassword);
 
-		JLabel lblUsuario = new JLabel("Usuario");
+		JLabel lblUsuario = new JLabel("Usuario.");
 		lblUsuario.setForeground(new Color(0, 0, 0));
 		lblUsuario.setBounds(210, 72, 46, 14);
 		contentPane.add(lblUsuario);
