@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1550958955622_0" label="NYCH" name="NYCH">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/NYCH-Service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/NYCH" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1550959240945_1" label="Window Working Set" name="Aggregate for window 1550959240943"/>
+</workingSetManager>
