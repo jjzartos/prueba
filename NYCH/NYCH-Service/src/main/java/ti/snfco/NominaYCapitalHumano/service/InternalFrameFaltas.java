@@ -46,7 +46,7 @@ import javax.swing.table.TableColumnModel;
 import javax.swing.table.TableModel;
 import javax.swing.table.TableRowSorter;
 
-import org.apache.poi.hslf.record.OutlineTextRefAtom;
+//import org.apache.poi.hslf.record.OutlineTextRefAtom;
 import org.slf4j.LoggerFactory;
 import javax.swing.border.MatteBorder;
 import java.awt.SystemColor;

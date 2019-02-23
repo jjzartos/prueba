@@ -47,7 +47,7 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.border.LineBorder;
 import javax.swing.plaf.TextUI;
 import org.slf4j.LoggerFactory;
-import com.jgoodies.forms.factories.CC;
+//import com.jgoodies.forms.factories.CC;
 
 public class FormularioPrincipal extends JFrame {
 
