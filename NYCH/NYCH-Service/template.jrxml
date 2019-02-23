@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.5.1.final using JasperReports Library version 6.5.1  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="template" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="4121ac68-116a-4839-8b1e-07278980d388">
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<group name="Group1">
+		<groupHeader>
+			<band height="30">
+				<textField>
+					<reportElement x="0" y="0" width="100" height="30" uuid="15cc13cf-4ea5-4236-8925-ed41b2ed08de"/>
+					<textFieldExpression><![CDATA["GroupField"]]></textFieldExpression>
+				</textField>
+			</band>
+		</groupHeader>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="76" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="480" height="30" uuid="78ccee29-5ed2-4dc6-8327-2ba42220c82e"/>
+				<textElement>
+					<font fontName="Arial" size="18"/>
+				</textElement>
+				<text><![CDATA[NOMINA MUNICIPAL DE SAN FRANCISCO DEL RINCÓN]]></text>
+			</staticText>
+			<textField pattern="MMMMM dd, yyyy">
+				<reportElement x="0" y="30" width="100" height="20" uuid="0c537524-68bd-4870-bb3d-987bb5a41dc2"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="46" width="546" height="30" uuid="b9584c07-3653-4332-97a2-b18280932967"/>
+				<text><![CDATA[------------------------------------------------------------------------------------------------------------------------------------------------------------------]]></text>
+			</staticText>
+			<image>
+				<reportElement x="492" y="1" width="50" height="50" uuid="d85ff6cc-1be8-4d5f-9c0e-fb456dcdba31"/>
+				<imageExpression><![CDATA["file:/C:/Users/DeveloperTI/Documents/Nomina%20y%20Capital%20Humano/NYCH/NYCH-Service/src/main/java/ti/snfco/NominaYCapitalHumano/reportes/EscudodeArmas.png"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<columnHeader>
+		<band height="30" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="100" height="30" uuid="353f235a-8e3a-414b-9000-8d6f80130120"/>
+				<text><![CDATA[Label]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="30" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="100" height="30" uuid="53f23cbc-b0a2-4225-9e14-cf5e1ae82a9a"/>
+				<textFieldExpression><![CDATA["Field"]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="76" splitType="Stretch">
+			<line>
+				<reportElement x="0" y="16" width="552" height="1" uuid="37ee0901-8658-42ed-b026-d878f6f965d6"/>
+			</line>
+			<textField>
+				<reportElement x="460" y="46" width="100" height="30" uuid="1a6aac31-eead-4600-8c21-235b90968f5a"/>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="30" splitType="Stretch"/>
+	</pageFooter>
+</jasperReport>
