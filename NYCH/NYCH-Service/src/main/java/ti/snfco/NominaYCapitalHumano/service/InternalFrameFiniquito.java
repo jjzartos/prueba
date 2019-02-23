@@ -1882,7 +1882,7 @@ public class InternalFrameFiniquito extends JInternalFrame {
 				runTitulo.setFontSize(13);
 				//runTitulo.setUnderline(UnderlinePatterns.WORDS);
 				runTitulo.setText(title);
-				runTitulo.setColor("111010");
+//				runTitulo.setColor("111010");
 				runTitulo.addBreak();
 
 				XWPFParagraph textoDeclaraciones =documento.createParagraph();
@@ -1891,7 +1891,7 @@ public class InternalFrameFiniquito extends JInternalFrame {
 				runTexto.setText(textoDeclaracion);
 				runTexto.setBold(true);
 				runTexto.setFontSize(11);
-				runTexto.setColor("111010");
+//				runTexto.setColor("111010");
 				runTexto.addBreak();
 
 				XWPFParagraph declaracion1 =documento.createParagraph();
@@ -1900,7 +1900,7 @@ public class InternalFrameFiniquito extends JInternalFrame {
 				rundeclaracion1.setText(textoDeclaracion1);
 				rundeclaracion1.setBold(true);
 				rundeclaracion1.setFontSize(11);
-				rundeclaracion1.setColor("111010");
+//				rundeclaracion1.setColor("111010");
 				rundeclaracion1.addBreak();
 
 				XWPFParagraph declaracion1A =documento.createParagraph();
@@ -1908,7 +1908,7 @@ public class InternalFrameFiniquito extends JInternalFrame {
 				declaracion1A.setAlignment(ParagraphAlignment.BOTH);
 				rundeclaracion1A.setText(textoDeclaracion1A);
 				rundeclaracion1A.setFontSize(11);
-				rundeclaracion1A.setColor("111010");
+//				rundeclaracion1A.setColor("111010");
 				rundeclaracion1A.addBreak();
 
 				XWPFParagraph declaracion1B =documento.createParagraph();
@@ -1916,7 +1916,7 @@ public class InternalFrameFiniquito extends JInternalFrame {
 				declaracion1B.setAlignment(ParagraphAlignment.BOTH);
 				rundeclaracion1B.setText(textoDeclaracion1B);
 				rundeclaracion1B.setFontSize(11);
-				rundeclaracion1B.setColor("111010");
+//				rundeclaracion1B.setColor("111010");
 				rundeclaracion1B.addBreak();
 
 				XWPFParagraph declaracion2 =documento.createParagraph();
@@ -1925,7 +1925,7 @@ public class InternalFrameFiniquito extends JInternalFrame {
 				rundeclaracion2.setText(textoDeclaracion2);
 				rundeclaracion2.setBold(true);
 				rundeclaracion2.setFontSize(11);
-				rundeclaracion2.setColor("111010");
+//				rundeclaracion2.setColor("111010");
 				rundeclaracion2.addBreak();
 
 
@@ -1934,7 +1934,7 @@ public class InternalFrameFiniquito extends JInternalFrame {
 				declaracion2A.setAlignment(ParagraphAlignment.BOTH);
 				rundeclaracion2A.setText(textoDeclaracion2A);
 				rundeclaracion2A.setFontSize(11);
-				rundeclaracion2A.setColor("111010");
+//				rundeclaracion2A.setColor("111010");
 				rundeclaracion2A.addBreak();
 
 				XWPFParagraph declaracion2B =documento.createParagraph();
@@ -1942,7 +1942,7 @@ public class InternalFrameFiniquito extends JInternalFrame {
 				declaracion2B.setAlignment(ParagraphAlignment.BOTH);
 				rundeclaracion2B.setText(textoDeclaracion2B);
 				rundeclaracion2B.setFontSize(11);
-				rundeclaracion2B.setColor("111010");
+//				rundeclaracion2B.setColor("111010");
 				rundeclaracion2B.addBreak();
 
 				XWPFParagraph declaracion2C =documento.createParagraph();
@@ -1950,7 +1950,7 @@ public class InternalFrameFiniquito extends JInternalFrame {
 				declaracion2C.setAlignment(ParagraphAlignment.BOTH);
 				rundeclaracion2C.setText(textoDeclaracion2C);
 				rundeclaracion2C.setFontSize(11);
-				rundeclaracion2C.setColor("111010");
+//				rundeclaracion2C.setColor("111010");
 				rundeclaracion2C.addBreak();
 
 				XWPFParagraph declaracion3 =documento.createParagraph();
@@ -1959,7 +1959,7 @@ public class InternalFrameFiniquito extends JInternalFrame {
 				rundeclaracion3.setText(textoDeclaracion3);
 				rundeclaracion3.setBold(true);
 				rundeclaracion3.setFontSize(11);
-				rundeclaracion3.setColor("111010");
+//				rundeclaracion3.setColor("111010");
 				rundeclaracion3.addBreak();
 
 				XWPFParagraph declaracion3A =documento.createParagraph();
@@ -1967,7 +1967,7 @@ public class InternalFrameFiniquito extends JInternalFrame {
 				declaracion3A.setAlignment(ParagraphAlignment.BOTH);
 				rundeclaracion3A.setText(textoDeclaracion3A);
 				rundeclaracion3A.setFontSize(11);
-				rundeclaracion3A.setColor("111010");
+//				rundeclaracion3A.setColor("111010");
 				rundeclaracion3A.addBreak();
 
 				XWPFParagraph declaracion3B = documento.createParagraph();
@@ -1975,7 +1975,7 @@ public class InternalFrameFiniquito extends JInternalFrame {
 				declaracion3B.setAlignment(ParagraphAlignment.BOTH);
 				rundeclaracion3B.setText(textoDeclaracion3B);
 				rundeclaracion3B.setFontSize(11);
-				rundeclaracion3B.setColor("111010");
+//				rundeclaracion3B.setColor("111010");
 				rundeclaracion3B.addBreak();
 				rundeclaracion3B.addBreak();
 				rundeclaracion3B.addBreak();
@@ -2009,7 +2009,7 @@ public class InternalFrameFiniquito extends JInternalFrame {
 				declaracion3C.setAlignment(ParagraphAlignment.BOTH);
 				rundeclaracion3C.setText(textoDeclaracion3C);
 				rundeclaracion3C.setFontSize(11);
-				rundeclaracion3C.setColor("111010");
+//				rundeclaracion3C.setColor("111010");
 				rundeclaracion3C.addBreak();
 
 				XWPFParagraph lista2 =documento.createParagraph();
@@ -2060,7 +2060,7 @@ public class InternalFrameFiniquito extends JInternalFrame {
 				declaracion3D.setAlignment(ParagraphAlignment.BOTH);
 				rundeclaracion3D.setText(textoDeclaracion3D);
 				rundeclaracion3D.setFontSize(11);
-				rundeclaracion3D.setColor("111010");
+//				rundeclaracion3D.setColor("111010");
 				rundeclaracion3D.addBreak();
 
 				XWPFParagraph declaracion3E =documento.createParagraph();
@@ -2068,7 +2068,7 @@ public class InternalFrameFiniquito extends JInternalFrame {
 				declaracion3E.setAlignment(ParagraphAlignment.BOTH);
 				rundeclaracion3E.setText(textoDeclaracion3E);
 				rundeclaracion3E.setFontSize(11);
-				rundeclaracion3E.setColor("111010");
+//				rundeclaracion3E.setColor("111010");
 				rundeclaracion3E.addBreak();
 
 				XWPFParagraph declaracion3F =documento.createParagraph();
@@ -2076,7 +2076,7 @@ public class InternalFrameFiniquito extends JInternalFrame {
 				declaracion3F.setAlignment(ParagraphAlignment.BOTH);
 				rundeclaracion3F.setText(textoDeclaracion3F);
 				rundeclaracion3F.setFontSize(11);
-				rundeclaracion3F.setColor("111010");
+//				rundeclaracion3F.setColor("111010");
 				rundeclaracion3F.addBreak();
 
 				XWPFParagraph declaracion3G =documento.createParagraph();
@@ -2084,7 +2084,7 @@ public class InternalFrameFiniquito extends JInternalFrame {
 				declaracion3G.setAlignment(ParagraphAlignment.BOTH);
 				rundeclaracion3G.setText(textoDeclaracion3G);
 				rundeclaracion3G.setFontSize(11);
-				rundeclaracion3G.setColor("111010");
+//				rundeclaracion3G.setColor("111010");
 				rundeclaracion3G.addBreak();
 
 				XWPFParagraph declaracion3H =documento.createParagraph();
@@ -2092,7 +2092,7 @@ public class InternalFrameFiniquito extends JInternalFrame {
 				declaracion3H.setAlignment(ParagraphAlignment.BOTH);
 				rundeclaracion3H.setText(textoDeclaracion3H);
 				rundeclaracion3H.setFontSize(11);
-				rundeclaracion3H.setColor("111010");
+//				rundeclaracion3H.setColor("111010");
 				rundeclaracion3H.addBreak();
 				rundeclaracion3H.addBreak();
 				rundeclaracion3H.addBreak();
@@ -2115,14 +2115,14 @@ public class InternalFrameFiniquito extends JInternalFrame {
 				rundeclaracionFirmaSindico.setBold(true);
 				rundeclaracionFirmaSindico.setText(textoFirmaSindico+"			"+textoFirmaCiudadano+textoCiudadno);
 				rundeclaracionFirmaSindico.setFontSize(11);
-				rundeclaracionFirmaSindico.setColor("111010");
+//				rundeclaracionFirmaSindico.setColor("111010");
 
 				XWPFParagraph declaracionSindico =documento.createParagraph();
 				XWPFRun rundeclaracionSindico = declaracionSindico.createRun();
 				declaracionSindico.setAlignment(ParagraphAlignment.LEFT);
 				rundeclaracionSindico.setText(textoSindico);
 				rundeclaracionSindico.setFontSize(10);
-				rundeclaracionSindico.setColor("111010");
+//				rundeclaracionSindico.setColor("111010");
 
 				documento.write(output);
 				output.close();
